@@ -1,0 +1,20 @@
+header {
+  text-align: center;
+  font-size: 50px;
+}
+
+.index {
+     background-color: #d8e1eb;
+     width: 150px;
+     height: 100px;
+     border: 1px solid black;
+}
+
+.metp{
+font-weight: bold;
+font-size: 16px;
+}
+
+.metc{
+  float: left;
+}
