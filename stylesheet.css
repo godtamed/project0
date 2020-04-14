@@ -6,15 +6,21 @@ header {
 .index {
      background-color: #d8e1eb;
      width: 150px;
-     height: 100px;
+     height: 120px;
      border: 1px solid black;
 }
 
-.metp{
+.metp {
 font-weight: bold;
 font-size: 16px;
 }
 
-.metc{
-  float: left;
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.grid1 {
+       background-color: #d8e1eb;
+       border: 1px solid black;
 }
