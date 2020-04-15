@@ -26,13 +26,13 @@ font-size: 16px;
        text-align: 25%;
 }
 
-@media (min-width: 500px) {
+@media (max-width: 499px) {
   .btt {
   visibility: hidden;
   }
 }
 
-@media (max-width: 499px) {
+@media (min-width: 500px) {
   .btt {
    visibility: visible;
   }
