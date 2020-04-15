@@ -23,4 +23,17 @@ font-size: 16px;
 .grid1 {
        background-color: #d8e1eb;
        border: 1px solid black;
+       text-align: 25%;
+}
+
+@media (min-width: 500px) {
+  .btt {
+  visibility: hidden;
+  }
+}
+
+@media (max-width: 499px) {
+  .btt {
+   visibility: visible;
+  }
 }
