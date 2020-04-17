@@ -2,13 +2,16 @@
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="bootstrap.css">
     <meta charset="utf-8">
     <title>My webstie</title>
   </head>
 
   <body>
     <header id=top, style="text-align: center;  font-size: 50px;">Metallica</header>
-    <p>
+
+<div class="txtimg">
+    <div class="txtimg1">
       Metallica earned a growing fan base in the underground music
       community and won critical acclaim with its first five albums.
       The band's third album, Master of Puppets (1986), was described as one of
@@ -21,7 +24,12 @@
       subsequent releases, the band returned to its thrash metal roots with
       the release of its ninth album, Death Magnetic (2008), which drew similar
        praise to that of the band's earlier albums.
-</p>
+    </div>
+    <div class="txtimg1">
+      <img src="images/metallica.jpg" alt="Metallica", style="height:30%;width:60%;">
+    </div>
+  </div>
+
 <p>
   In 2000, Metallica led the case against the peer-to-peer file
   sharing service Napster, in which the band and several other artists
@@ -61,27 +69,42 @@
           </ul>
 
       <h2 id=mem>Band members</h2>
-    <div class="grid">
-        <div class="grid1">
-          <p class="metp">Current members</p>
-          <ul>
-            <li>James Hefield --- Vocalist, rythm guitarist</li>
-            <li>Lars Ulrich ---Drummer</li>
-            <li>Kirk Hammet --- Lead guitarist</li>
-            <li>Robert Trujillo --- Bassist</li>
-          </ul>
-        </div>
-        <div class="grid1">
-          <p class="metp">Old members</p>
-          <ul>
-            <li>Dave Mustaine --- Lead guitarist</li>
-            <li>Jason Newsted --- Bassist</li>
-            <li>Cliff Burton --- Bassist</li>
-            <li>Ron McGovney --- Bassist</li>
-          </ul>
-        </div>
-      </div>
-
+      <table class="table table-dark">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">First Name</th>
+          <th scope="col">Last Name</th>
+          <th scope="col">Role</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>James</td>
+          <td>Hetfield</td>
+          <td>Vocalist, rythm guitarist</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Kirk</td>
+          <td>Hammet</td>
+          <td>Lead guitarist</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Lars</td>
+          <td>Ulrich</td>
+          <td>Drummer</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Robert</td>
+          <td>Trujillo</td>
+          <td>Bassist</td>
+        </tr>
+      </tbody>
+    </table>
       <h2 id=awa>Awards</h2>
       <p class="metp">Grammy</p>
       <ul>

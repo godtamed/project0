@@ -1,10 +1,45 @@
 REQUIREMENTS:
 
 at least four different .html pages (hyperlinks) - DONE!
-Your website must include at least one list (ordered or unordered) DONE, at least one table, and at least one image.
-Your website must have at least one stylesheet file.
+Your website must include at least one list (ordered or unordered) DONE, at least one table, and at least one image. - DONE!
+Your website must have at least one stylesheet file. - DONE!
 Stylesheet(s) must use at least five different CSS properties, and at least five different types of CSS selectors. You must use the #id selector at least once, and the .class selector at least once.
 Stylesheet(s) must include at least one mobile-responsive @media query, such that something about the styling changes for smaller screens.
 Use Bootstrap 4 on your website, taking advantage of at least one Bootstrap component, and using at least two Bootstrap columns for layout purposes using Bootstrap’s grid model.
 Stylesheets must use at least one SCSS variable, at least one example of SCSS nesting, and at least one use of SCSS inheritance.
 In README.md, include a short writeup describing your project, wha
+
+
+Two rows table (no bootstrap)
+
+<div class="grid">
+    <div class="grid1">
+      <p class="metp">Gutiarists:</p>
+      <ul>
+        <li>Dave Mustaine --- </li>
+        <li>Kiko Loureiro --- </li>
+      </ul>
+    </div>
+    <div class="grid1">
+      <p class="metp">Bassist and dummer:</p>
+      <ul>
+        <li>David Ellefson --- </li>
+        <li>Dirk Verbeuren --- Drums</li>
+      </ul>
+    </div>
+  </div>
+
+  <p>
+    Metallica earned a growing fan base in the underground music
+    community and won critical acclaim with its first five albums.
+    The band's third album, Master of Puppets (1986), was described as one of
+    the heaviest and most influential thrash metal albums. Its eponymous
+    fifth album, Metallica (1991), the band's first to root predominantly in
+    heavy metal, appealed to a more mainstream audience, achieving
+    substantial commercial success and selling over 16 million copies in the
+    United States to date, making it the best-selling album of the SoundScan
+    era. After experimenting with different genres and directions in
+    subsequent releases, the band returned to its thrash metal roots with
+    the release of its ninth album, Death Magnetic (2008), which drew similar
+     praise to that of the band's earlier albums.
+</p>

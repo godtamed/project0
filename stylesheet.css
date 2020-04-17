@@ -15,7 +15,7 @@ font-weight: bold;
 font-size: 16px;
 }
 
-.grid {
+.grid, .txtimg {
   display: grid;
   grid-template-columns: auto auto;
 }
