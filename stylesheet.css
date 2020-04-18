@@ -26,6 +26,18 @@ font-size: 16px;
        text-align: 25%;
 }
 
+#mar {
+  height:45%;
+  width:75%;
+  background-color: #d8e1eb;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  border: 2px solid black;
+}
+
 @media (max-width: 499px) {
   .btt {
   visibility: hidden;
