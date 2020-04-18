@@ -39,7 +39,7 @@ $border1: 2px solid $bordercolor;
 
 .table thead th {
   vertical-align: bottom;
-  border-bottom: 2px solid $bordercolor;
+  border-bottom: $border1;
 }
 
 .table tbody + tbody {

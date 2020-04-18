@@ -1,0 +1,18 @@
+$marpad: 40px;
+
+#indexbox {
+  background-color: #d8e1eb;
+  padding-top: $marpad;
+  padding-left: $marpad;
+  padding-right: $marpad;
+  padding-bottom: $marpad;
+  margin-top: $marpad;
+  margin-left: $marpad;
+  margin-right: $marpad;
+  margin-bottom: $marpad;
+
+  p {
+    font-family: sans-serif;
+    font-size: 14px;
+  }
+}

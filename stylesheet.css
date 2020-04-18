@@ -13,6 +13,11 @@ font-size: 16px;
   grid-template-columns: auto auto;
 }
 
+.background{
+  background-image: url('images/background.jpg');
+  background-size: 100%,100%;
+}
+
 @media (max-width: 499px) {
   .btt {
   visibility: hidden;
