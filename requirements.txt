@@ -29,6 +29,8 @@ Two rows table (no bootstrap)
     </div>
   </div>
 
-  <div id="mar">
-      <img src="images/metallica.jpg" alt="Metallica", style="height:30%;width:60%;">
-  </div>
+  .table tbody + tbody {
+    border-top: 2px solid #dee2e6;
+  }
+
+  #d8e1eb
