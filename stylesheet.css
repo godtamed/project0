@@ -1,0 +1,35 @@
+header {
+  text-align: center;
+  font-size: 50px;
+}
+
+.metp {
+font-weight: bold;
+font-size: 16px;
+}
+
+.grid, .txtimg {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.background{
+  background-image: url('images/background.jpg');
+  background-size: 100%,100%;
+}
+
+body {
+  margin: 0;
+}
+
+@media (max-width: 499px) {
+  .btt {
+  visibility: hidden;
+  }
+}
+
+@media (min-width: 500px) {
+  .btt {
+   visibility: visible;
+  }
+}

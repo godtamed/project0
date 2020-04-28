@@ -1,0 +1,76 @@
+$color: #d8e1eb;
+$bordercolor: #dee2e6;
+$width: 150px;
+$height: 120px;
+$border: 1px solid black;
+$border1: 2px solid $bordercolor;
+%btt {
+  font-size: 14px;
+  font-family: arial;
+  border: 1px solid black;
+}
+.index {
+     background-color: $color;
+     width: $width;
+     height: $height;
+     border: $border;
+}
+
+.grid1 {
+       background-color: $color;
+       border: $border;
+       text-align: 25%;
+}
+
+#mar {
+  height:45%;
+  width:75%;
+  background-color: $color;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid $bordercolor;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: $border1;
+}
+
+.table tbody + tbody {
+  border-top: $border1;
+}
+
+.table-sm th,
+.table-sm td {
+  padding: 0.3rem;
+}
+
+.bttmet{
+  @extend %btt;
+  background-color: black;
+}
+
+.bttmeg{
+  @extend %btt;
+  background-color: white;
+}
+
+.bttclas{
+  @extend %btt;
+  background-color: brown;
+}
+
+.bttmis{
+  @extend %btt;
+  backgroudn-color: red;
+}

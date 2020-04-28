@@ -1,0 +1,31 @@
+figure {
+  margin: 0 0 1rem;
+}
+
+td {
+text-align: center;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+}
+
+.figure {
+  display: inline-block;
+}
+
+.figure-img {
+  margin-bottom: 0.5rem;
+  line-height: 1;
+}
+
+.figure-caption {
+  font-size: 90%;
+  color: black;
+}
+
+.rounded {
+  border-radius: 0.25rem !important;
+}
