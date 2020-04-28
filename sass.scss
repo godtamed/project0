@@ -4,7 +4,11 @@ $width: 150px;
 $height: 120px;
 $border: 1px solid black;
 $border1: 2px solid $bordercolor;
-
+%btt {
+  font-size: 14px;
+  font-family: arial;
+  border: 1px solid black;
+}
 .index {
      background-color: $color;
      width: $width;
@@ -49,4 +53,24 @@ $border1: 2px solid $bordercolor;
 .table-sm th,
 .table-sm td {
   padding: 0.3rem;
+}
+
+.bttmet{
+  @extend %btt;
+  background-color: black;
+}
+
+.bttmeg{
+  @extend %btt;
+  background-color: white;
+}
+
+.bttclas{
+  @extend %btt;
+  background-color: brown;
+}
+
+.bttmis{
+  @extend %btt;
+  backgroudn-color: red;
 }
