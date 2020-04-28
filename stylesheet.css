@@ -18,6 +18,10 @@ font-size: 16px;
   background-size: 100%,100%;
 }
 
+body {
+  margin: 0;
+}
+
 @media (max-width: 499px) {
   .btt {
   visibility: hidden;
